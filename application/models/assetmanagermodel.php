@@ -200,7 +200,7 @@ class Assetmanagermodel extends CI_Model
 		$changeHistoryStr="";
 		if($assetName!=$oldResult[0]['assetName']){
 			$publishHistory=1;
-			$changeHistoryStr.=" changed assetName from ".$oldResult[0]['assetName']." to ".$assetName." on ".date("d-m-Y H:i:s");
+			$changeHistoryStr.=" changed assetName from ".$oldResult[0]['assetName']." to ".$assetName." on ".date("d-m-Y H:i:s")."<br><br>";
 
 		}
 
